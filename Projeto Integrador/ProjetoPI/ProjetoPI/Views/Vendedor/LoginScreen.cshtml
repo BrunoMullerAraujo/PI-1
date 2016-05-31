@@ -1,0 +1,68 @@
+﻿@model Dominio.Vendedor
+@{
+    string actionName = string.Empty;
+    string legenda = String.Empty;
+    switch (ViewContext.RouteData.Values["action"].ToString())
+    {
+        case "LoginScreen":
+            actionName = "ValidaLoginSenha";
+            break;
+    }
+}
+@{
+    ViewBag.Title = legenda;
+}
+<div>
+    <h2>Login</h2>
+</div>
+
+<div id="login">
+    @Html.ValidationSummary(true)
+    <div class="row">
+        <div class="col-sm-12">
+            @using (Html.BeginForm(actionName, "Vendedor", FormMethod.Post, new { @id = "form-vendedor", @class = "form-horizontal", @role = "form", @enctype = "multipart/form-data" }))
+            {
+                <div>
+                    <fieldset>
+                        <legend>@legenda</legend>
+                        <div class="form-group">
+
+                            <div class="col-sm-4 col-sm-offset-4">
+                                @Html.TextBoxFor(vendedor => vendedor.Email, new { @id = "vendedor-Login", @class = "form-control", @autocomplete = "on", @placeholder = "Email" })
+                                @Html.ValidationMessageFor(vendedor => vendedor.Email, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                            </div>
+                        </div>
+                        <div class="form-group">
+
+                            <div class="col-sm-4 col-sm-offset-4">
+                                @Html.PasswordFor(vendedor => vendedor.Senha, new { @id = "vendedor-nome", @class = "form-control", @placeholder = "Senha" })
+                                @Html.ValidationMessageFor(vendedor => vendedor.Senha, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-sm-4 col-sm-offset-5" style="float: left;">
+                                <input type="submit" class="btn btn-success" value="Autenticar" />
+                                <input type="reset" class="btn btn-secondary" value="Limpar" />
+                            </div>
+                        </div>
+
+                    </fieldset>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+
+
+@section Scripts
+{
+    
+    <script type="text/javascript">
+
+        window.onload = function () {
+            var input = document.getElementById("vendedor-Login").focus();
+        }
+    </script>
+}

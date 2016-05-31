@@ -1,0 +1,407 @@
+﻿@model Dominio.Troca
+@{
+
+    ViewBag.Title = "Nova Troca";
+    var selectListTipo = new[] {new SelectListItem(){Text = "Pessoa Fisica", Value = "PF"},
+                          new SelectListItem(){Text = "Pessoa Juridica", Value = "PJ"}};
+    var selectListUn = new[] {new SelectListItem(){Text = "KG", Value = "KG"},
+                          new SelectListItem(){Text = "UN", Value = "UN"}};
+    var selectListNf = new[] {new SelectListItem(){Text = "Emite NF-e", Value = "Sim"},
+                          new SelectListItem(){Text = "Não Emite NF-e", Value = "Nao"}};
+    var selectListAcondicionamento = new[] {new SelectListItem(){Text = "Adequado", Value = "Sim"},
+                          new SelectListItem(){Text = "Inadequado", Value = "Nao"}};
+    var selectListTemperatura = new[] {new SelectListItem(){Text = "Adequado", Value = "Sim"},
+                          new SelectListItem(){Text = "Inadequado", Value = "Nao"}};
+
+    var selectListClientes = new SelectList(ViewBag.Clientes, "Id", "Nome");
+}
+
+<h2>Cadastro de Trocas</h2>
+<br />
+<div id="nova-troca">
+    @Html.ValidationSummary(true)
+    <div class="row">
+        <div class="col-sm-12">
+            @using (Html.BeginForm("NovaTroca", "Troca", FormMethod.Post, new { @id = "form-nova-troca", @class = "form-horizontal", @role = "form" }))
+            {
+                <fieldset>
+                    <legend>Cadastro de Trocas</legend>
+
+                    @Html.HiddenFor(troca => troca.Id)
+
+                    <div class="form-group">
+                        <div class="col-sm-2">
+
+                            @Html.LabelFor(troca => troca.Cliente.Codigo, new { @class = "control-label", @for = "codigo-troca" })
+                            @Html.TextBoxFor(troca => troca.Cliente.Codigo, new { @id = "codigo-troca", @class = "form-control", @placeholder = "Digite aqui o codigo do cliente" })
+                            @Html.ValidationMessageFor(troca => troca.Cliente.Codigo, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                        </div>
+
+                        <div class="col-sm-4">
+                            @Html.LabelFor(troca => troca.Cliente.Nome, new { @class = "control-label", @for = "nome-troca" })
+                            @Html.DropDownListFor(troca => troca.Cliente.Nome, selectListClientes, "Selecione...", new { @id = "nome-troca", @class = "form-control" })
+                            @Html.ValidationMessageFor(troca => troca.Cliente.Nome, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                        </div>
+                        <div class="col-sm-2">
+                            @Html.LabelFor(troca => troca.Cliente.TipoCliente, new { @class = "control-label", @for = "tipo-cliente-troca" })
+                            @Html.DropDownListFor(troca => troca.Cliente.TipoCliente, selectListTipo, "Selecione...", new { @id = "tipo-cliente-troca", @class = "form-control" })
+
+                        </div>
+                        <div class="col-sm-4">
+                            @Html.LabelFor(troca => troca.Cliente.CPFCNPJ, new { @class = "control-label", @for = "cpfcnpj-troca" })
+                            @Html.TextBoxFor(troca => troca.Cliente.CPFCNPJ, new { @id = "cpfcnpj-troca", @class = "form-control", @placeholder = "Digite aqui o nome do cliente" })
+                            @Html.ValidationMessageFor(troca => troca.Cliente.CPFCNPJ, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-4">
+                            @Html.LabelFor(troca => troca.Cliente.Email, new { @class = "control-label", @for = "email-troca" })
+                            @Html.TextBoxFor(troca => troca.Cliente.Email, new { @id = "email-troca", @class = "form-control", @placeholder = "Digite aqui o codigo o E-Mail" })
+                            @Html.ValidationMessageFor(cliente => cliente.Cliente.Email, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                        </div>
+
+                        <div class="col-sm-2">
+                            @Html.LabelFor(troca => troca.Cliente.NumeroLoja, new { @class = "control-label", @for = "numeroLoja-troca" })
+                            @Html.TextBoxFor(troca => troca.Cliente.NumeroLoja, new { @id = "numeroLoja-troca", @class = "form-control", @placeholder = "Digite aqui o codigo o Codigo da Loja" })
+                            @Html.ValidationMessageFor(cliente => cliente.Cliente.NumeroLoja, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                        </div>
+
+                        <div class="col-sm-4">
+                            @Html.LabelFor(troca => troca.Cliente.NomeFantasia, new { @class = "control-label", @for = "nomeFantasia-troca" })
+                            @Html.TextBoxFor(troca => troca.Cliente.NomeFantasia, new { @id = "nomeFantasia-troca", @class = "form-control", @placeholder = "Digite aqui o Nome Fantasia" })
+                            @Html.ValidationMessageFor(cliente => cliente.Cliente.NomeFantasia, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                        </div>
+
+                        <div class="col-sm-2">
+                            @Html.LabelFor(troca => troca.Cliente.NumeroTelefone, new { @class = "control-label", @for = "numerotelefone-troca" })
+                            @Html.TextBoxFor(troca => troca.Cliente.NumeroTelefone, new { @id = "numerotelefone-troca", @class = "form-control", @placeholder = "Digite aqui o Telefone" })
+                            @Html.ValidationMessageFor(cliente => cliente.Cliente.NumeroTelefone, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                        </div>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <div class="col-sm-4">
+                            @Html.LabelFor(troca => troca.NotaFiscal, new { @class = "control-label", @for = "notafiscal-troca" })
+                            @Html.DropDownListFor(troca => troca.NotaFiscal, selectListNf, "Selecione...", new { @id = "notafiscal-troca", @class = "chosen-select" })
+                        </div>
+
+                        <div class="col-sm-4">
+                            @Html.LabelFor(troca => troca.Acondicionamento, new { @class = "control-label", @for = "acondicionamento-troca" })
+                            @Html.DropDownListFor(troca => troca.Acondicionamento, selectListAcondicionamento, "Selecione...", new { @id = "acondicionamento-troca", @class = "chosen-select" })
+                        </div>
+
+
+                        <div class="col-sm-4">
+                            @Html.LabelFor(troca => troca.Temperatura, new { @class = "control-label", @for = "temperatura-troca" })
+                            @Html.DropDownListFor(troca => troca.Temperatura, selectListTemperatura, "Selecione...", new { @id = "temperatura-troca", @class = "chosen-select" })
+                        </div>
+
+                    </div>
+
+                    @*//Produto 1*@
+
+
+                    <div class="form-group">
+                        <div class="col-sm-3">
+                            @Html.LabelFor(troca => troca.NomeProduto, new { @class = "control-label", @for = "nomeproduto-troca" })
+                            @Html.TextBoxFor(troca => troca.NomeProduto, new { @id = "nomeproduto-troca", @class = "form-control", @placeholder = "Digite aqui o Produto" })
+                            @Html.ValidationMessageFor(troca => troca.NomeProduto, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                        </div>
+
+                        <div class="col-sm-1">
+                            @Html.LabelFor(troca => troca.Quantidade, new { @class = "control-label", @for = "codigoProduto-troca" })
+                            @Html.TextBoxFor(troca => troca.Quantidade, new { @id = "codigoProduto-troca", @class = "form-control", @placeholder = "Digite aqui a Quantidade" })
+                            @Html.ValidationMessageFor(troca => troca.Quantidade, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                        </div>
+
+                        <div class="col-sm-1">
+                            @Html.LabelFor(troca => troca.UnidadeMedida, new { @class = "control-label", @for = "unmedida-troca" })
+                            @Html.DropDownListFor(troca => troca.UnidadeMedida, selectListUn, "Selecione...", new { @id = "unmedida-troca", @class = "chosen-select" })
+                        </div>
+
+                        <div class="col-sm-1">
+                            @Html.LabelFor(troca => troca.Lote, new { @class = "control-label", @for = "lote-troca" })
+                            @Html.TextBoxFor(troca => troca.Lote, new { @id = "lote-troca", @class = "form-control", @placeholder = "Digite aqui o Lote" })
+                            @Html.ValidationMessageFor(troca => troca.Lote, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                        </div>
+
+
+                        <div class="col-sm-3">
+                            @Html.LabelFor(troca => troca.DataFabricacao, new { @class = "control-label", @for = "datafabri-troca" })
+                            <div class="input-group date form_date" >
+                                <input class="form-control" size="16" type="text" value="">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            @Html.LabelFor(troca => troca.Problema, new { @class = "control-label", @for = "problema-troca" })
+                            @Html.TextBoxFor(troca => troca.Problema, new { @id = "problema-troca", @class = "form-control", @placeholder = "Digite aqui o Problema" })
+                            @Html.ValidationMessageFor(troca => troca.Problema, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                        </div>
+                    </div>
+
+
+
+                    @*//Produto 2*@
+
+
+                    <div class="form-group">
+                        <div class="col-sm-3">
+                            @Html.LabelFor(troca => troca.NomeProduto, new { @class = "control-label", @for = "nomeproduto-troca2" })
+                            @Html.TextBoxFor(troca => troca.NomeProduto2, new { @id = "nomeproduto-troca2", @class = "form-control", @placeholder = "Digite aqui o Produto" })
+                            @Html.ValidationMessageFor(troca => troca.NomeProduto2, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                        </div>
+
+                        <div class="col-sm-1">
+                            @Html.LabelFor(troca => troca.Quantidade2, new { @class = "control-label", @for = "codigoProduto-troca2" })
+                            @Html.TextBoxFor(troca => troca.Quantidade2, new { @id = "codigoProduto-troca2", @class = "form-control", @placeholder = "Digite aqui a Quantidade" })
+                            @Html.ValidationMessageFor(troca => troca.Quantidade2, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                        </div>
+
+                        <div class="col-sm-1">
+                            @Html.LabelFor(troca => troca.UnidadeMedida2, new { @class = "control-label", @for = "unmedida-troca2" })
+                            @Html.DropDownListFor(troca => troca.UnidadeMedida2, selectListUn, "Selecione...", new { @id = "unmedida-troca2", @class = "chosen-select" })
+                        </div>
+
+                        <div class="col-sm-1">
+                            @Html.LabelFor(troca => troca.Lote2, new { @class = "control-label", @for = "lote-troca2" })
+                            @Html.TextBoxFor(troca => troca.Lote2, new { @id = "lote-troca2", @class = "form-control", @placeholder = "Digite aqui o Lote" })
+                            @Html.ValidationMessageFor(troca => troca.Lote2, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                        </div>
+
+
+                        <div class="col-sm-3">
+                            @Html.LabelFor(troca => troca.DataFabricacao2, new { @class = "control-label", @for = "datafabri-troca2" })
+                            <div class="input-group date form_date">
+                                <input class="form-control" size="16" type="text" value="">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            @Html.LabelFor(troca => troca.Problema2, new { @class = "control-label", @for = "problema-troca2" })
+                            @Html.TextBoxFor(troca => troca.Problema2, new { @id = "problema-troca2", @class = "form-control", @placeholder = "Digite aqui o Problema" })
+                            @Html.ValidationMessageFor(troca => troca.Problema2, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                        </div>
+                    </div>
+
+
+                    @*//Produto 3*@
+
+
+                    <div class="form-group">
+                        <div class="col-sm-3">
+                            @Html.LabelFor(troca => troca.NomeProduto, new { @class = "control-label", @for = "nomeproduto-troca2" })
+                            @Html.TextBoxFor(troca => troca.NomeProduto2, new { @id = "nomeproduto-troca2", @class = "form-control", @placeholder = "Digite aqui o Produto" })
+                            @Html.ValidationMessageFor(troca => troca.NomeProduto2, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                        </div>
+
+                        <div class="col-sm-1">
+                            @Html.LabelFor(troca => troca.Quantidade2, new { @class = "control-label", @for = "codigoProduto-troca2" })
+                            @Html.TextBoxFor(troca => troca.Quantidade2, new { @id = "codigoProduto-troca2", @class = "form-control", @placeholder = "Digite aqui a Quantidade" })
+                            @Html.ValidationMessageFor(troca => troca.Quantidade2, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                        </div>
+
+                        <div class="col-sm-1">
+                            @Html.LabelFor(troca => troca.UnidadeMedida2, new { @class = "control-label", @for = "unmedida-troca2" })
+                            @Html.DropDownListFor(troca => troca.UnidadeMedida2, selectListUn, "Selecione...", new { @id = "unmedida-troca2", @class = "chosen-select" })
+                        </div>
+
+                        <div class="col-sm-1">
+                            @Html.LabelFor(troca => troca.Lote2, new { @class = "control-label", @for = "lote-troca2" })
+                            @Html.TextBoxFor(troca => troca.Lote2, new { @id = "lote-troca2", @class = "form-control", @placeholder = "Digite aqui o Lote" })
+                            @Html.ValidationMessageFor(troca => troca.Lote2, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                        </div>
+
+
+                        <div class="col-sm-3">
+                            @Html.LabelFor(troca => troca.DataFabricacao2, new { @class = "control-label", @for = "datafabri-troca2" })
+                            <div class="input-group date form_date">
+                                <input class="form-control" size="16" type="text" value="">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            @Html.LabelFor(troca => troca.Problema2, new { @class = "control-label", @for = "problema-troca2" })
+                            @Html.TextBoxFor(troca => troca.Problema2, new { @id = "problema-troca2", @class = "form-control", @placeholder = "Digite aqui o Problema" })
+                            @Html.ValidationMessageFor(troca => troca.Problema2, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                        </div>
+                    </div>
+
+                    @*//Produto 4*@
+
+
+                    <div class="form-group">
+                        <div class="col-sm-3">
+                            @Html.LabelFor(troca => troca.NomeProduto, new { @class = "control-label", @for = "nomeproduto-troca2" })
+                            @Html.TextBoxFor(troca => troca.NomeProduto2, new { @id = "nomeproduto-troca2", @class = "form-control", @placeholder = "Digite aqui o Produto" })
+                            @Html.ValidationMessageFor(troca => troca.NomeProduto2, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                        </div>
+
+                        <div class="col-sm-1">
+                            @Html.LabelFor(troca => troca.Quantidade2, new { @class = "control-label", @for = "codigoProduto-troca2" })
+                            @Html.TextBoxFor(troca => troca.Quantidade2, new { @id = "codigoProduto-troca2", @class = "form-control", @placeholder = "Digite aqui a Quantidade" })
+                            @Html.ValidationMessageFor(troca => troca.Quantidade2, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                        </div>
+
+                        <div class="col-sm-1">
+                            @Html.LabelFor(troca => troca.UnidadeMedida2, new { @class = "control-label", @for = "unmedida-troca2" })
+                            @Html.DropDownListFor(troca => troca.UnidadeMedida2, selectListUn, "Selecione...", new { @id = "unmedida-troca2", @class = "chosen-select" })
+                        </div>
+
+                        <div class="col-sm-1">
+                            @Html.LabelFor(troca => troca.Lote2, new { @class = "control-label", @for = "lote-troca2" })
+                            @Html.TextBoxFor(troca => troca.Lote2, new { @id = "lote-troca2", @class = "form-control", @placeholder = "Digite aqui o Lote" })
+                            @Html.ValidationMessageFor(troca => troca.Lote2, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                        </div>
+
+
+                        <div class="col-sm-3">
+                            @Html.LabelFor(troca => troca.DataFabricacao2, new { @class = "control-label", @for = "datafabri-troca2" })
+                            <div class="input-group date form_date">
+                                <input class="form-control" size="16" type="text" value="">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            @Html.LabelFor(troca => troca.Problema2, new { @class = "control-label", @for = "problema-troca2" })
+                            @Html.TextBoxFor(troca => troca.Problema2, new { @id = "problema-troca2", @class = "form-control", @placeholder = "Digite aqui o Problema" })
+                            @Html.ValidationMessageFor(troca => troca.Problema2, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                        </div>
+                    </div>
+
+                </fieldset>
+                
+            <div class="col-sm-12">
+                <input type="submit" class="btn btn-primary" value="Enviar" />
+                <input type="reset" class="btn btn-secondary" value="Limpar" />
+            </div>
+
+                
+            }
+        </div>
+        </div>
+        </div>
+
+        @section Scripts
+{
+
+            <script type="text/javascript">
+
+                //------------------------------------- Código para Busca de Cliente ---------------------------------------------------
+
+                $('.chosen-select').chosen({ no_result_text: "Nenhum cliente encontrado!", search_contains: true, allow_single_deselect: true });
+
+                function BuscaCliente(_idCliente) {
+                    var idCliente = _idCliente;
+                    if (idCliente == undefined || idCliente == '') {
+                        var idCliente = $("#nome-troca").val();
+                    }
+
+                    $.ajax({
+                        url: "@Url.Action("BuscaClienteIdParaTroca", "Cliente")",
+                        type: "POST",
+                        data: "{ 'idCliente': '" + idCliente + "'}",
+                        datatype: 'json',
+                        contentType: 'application/json; charset=utf-8',
+                        success: function (cliente) {
+                            $("#codigo-troca").val(cliente.Codigo).trigger("change");
+                            $("#tipo-cliente-troca").val(cliente.TipoCliente).trigger("change");
+                            $("#cpfcnpj-troca").val(cliente.CPFCNPJ).trigger("change");
+                            $("#email-troca").val(cliente.Email).trigger("change");
+                            $("#numeroLoja-troca").val(cliente.NumeroLoja).trigger("change");
+                            $("#nomeFantasia-troca").val(cliente.NomeFantasia).trigger("change");
+                            $("#numerotelefone-troca").val(cliente.NumeroTelefone).trigger("change");
+
+
+
+                            $(document.getElementById("nome-troca")).tooltip('destroy');
+                            
+                    },
+                    error: function () {
+                        $("#codigo-troca").val("").trigger("change");
+                        $("#tipo-cliente-troca").val("").trigger("change");
+                        $("#cpfcnpj-troca").val("").trigger("change");
+                        $("#email-troca").val("").trigger("change");
+                        $("#numeroLoja-troca").val("").trigger("change");
+                        $("#nomenantasia-troca").val("").trigger("change");
+                        $("#numerotelefone-troca").val("").trigger("change");
+                        
+                        $('[data-toggle="tooltip"]').tooltip({
+                            'placement': 'top'
+                        });
+                        $('[data-toggle="popover"]').popover({
+                            trigger: 'hover',
+                            'placement': 'top'
+                        });
+                        $(document.getElementById("nome-troca")).tooltip({
+                            'show': true,
+                            'placement': 'top',
+                            'title': "Cliente não encontrado!!"
+                        });
+
+                        $(document.getElementById("nome-troca")).tooltip('show');
+                    }
+                });
+                }
+                //---------------------------------------------------------------------------------------------------------------------
+
+                $('.chosen-select').chosen({ no_results_text: "Nenhum resgistro encontrado!", search_contains: true });
+
+                $('.form_date').datetimepicker({
+                    format: 'DD/MM/YYYY',
+                    }
+                );
+
+                $(function () {
+                    
+                    $('#cpfcnpj-troca').mask('99.999.999/9999-99', { autoclear: false })
+                         .focusout(function (event) {
+                             var target, cnpj, element;
+                             target = (event.currentTarget) ? event.currentTarget : event.srcElement;
+                             cnpj = target.value.replace(/\D/g, '');
+                             element = $(target);
+                             element.unmask();
+                             if (cnpj.length >= 14) {
+                                 element.mask('99.999.999/9999-99');
+                             } else {
+                                 element.mask('999.999.999-99');
+                             }
+                         });
+
+                    $('.chosen-select').chosen({ no_results_text: "Nenhum resgistro encontrado!", search_contains: true });
+
+                    $('#form-novo-usuario').submit(function () {
+                        $('#usuario-cpf').val($('#usuario-cpf').mask());
+                    });
+
+                    $('#numerotelefone-troca').focusout(function () {
+                        var phone, element;
+                        element = $(this);
+                        element.unmask();
+                        phone = element.val().replace(/\D/g, '');
+                        if (phone.length > 10) {
+                            element.mask("(99) 99999-999?9", { autoclear: false });
+                        } else {
+                            element.mask("(99) 9999-9999?9", { autoclear: false });
+                        }
+                    }).trigger('focusout');
+
+                });
+
+                $("#nome-troca").focusout(function () {
+                    BuscaCliente();
+
+                });
+                
+            </script>
+        }

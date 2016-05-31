@@ -1,0 +1,89 @@
+﻿@using System.Web.Optimization
+@using BootstrapSupport
+@using NavigationRoutes
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>@ViewBag.Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/Content/imagens/coopatos-logo.png" rel="icon">
+    <link href="@Styles.Url("~/content/css")" rel="stylesheet"/>
+    @RenderSection("featured", required: false)
+    @if(Session["ColaboradorLogin"] != null)
+    {
+        Session.Timeout = 1180;
+    }
+</head>
+
+<body>
+    <header id="coopatos-header" class="navbar navbar-inverse navbar-fixed-top" style="max-height: 30px;">
+        <a href="~/Home/Index"><img id="coopatos-header-logo" class="img-circle" src="~/Content/imagens/coopatos-logo.png" style="max-height: 100px; float: left;"/></a>
+        <div class="container"  style="max-height:30px;">
+            <div class="navbar-header" style="max-height:30px;">
+                <button class="navbar-toggle navbar-inverse" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Menu Principal</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Navega��o -->
+            <nav class="collapse navbar-collapse" id="navbar-coopatos" role="navigation" style="max-height:50px;">
+                <ul class="nav navbar-nav">
+                    <li><a href="~/Home/Index">Coopatos</a></li> 
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Controle de Clientes <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="~/Cliente/Index">Consultar Cliente</a></li>   
+                            <li><a href="~/Cliente/MantemCliente">Cadastro de Cliente</a></li>
+                        </ul>
+                    </li> 
+                        
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Controle de Produtos <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="~/Produto/Index">Consultar Produto</a></li>   
+                            <li><a href="~/Produto/MantemProdutos">Cadastro de Produto</a></li>
+                        </ul>
+                    </li> 
+                        
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Controle de Vendedores <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="~/Vendedor/Index">Consultar Vendedor</a></li>   
+                            <li><a href="~/Vendedor/MantemVendedor">Cadastro de Vendedor</a></li>
+                        </ul>
+                    </li>  
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Controle de Trocas <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="~/Troca/index">Consultar Troca</a></li>
+                            <li><a href="~/Troca/MantemTroca">Cadastro de Troca</a></li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </nav>
+        </div>
+        <!-- /.container -->
+    </header>
+    <div id="coopatos-body-container" class="container" style="padding-top:60px;">        
+        @Html.Partial("_alerts")
+        @Html.Partial("_validationSummary")
+        @RenderBody()
+        <footer>
+            <hr>
+            <p>&copy; Projeto Integrado 2016</p>
+        </footer>
+    </div>
+    <section hidden>
+        @RenderSection("AjaxForms", required: false)
+    </section>
+
+    @Scripts.Render("~/js")
+    @RenderSection("Scripts", required: false)
+
+</body>
+</html>
+

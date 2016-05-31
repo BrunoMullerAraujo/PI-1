@@ -1,0 +1,32 @@
+﻿@model List<Dominio.Vendedor>
+
+<h3 style="padding-bottom: 7px;">Lista de Vendedores</h3>
+<br />
+
+<div class="table-responsive">
+    <table class="table table-hover table-condensed">
+        <thead>
+            <tr class="active">
+                <th><strong>Nome do Vendedor</strong></th>
+                <th><strong>Cidade</strong></th>
+                <th><strong>Telefone</strong></th>
+                <th><strong>E-Mail</strong></th>
+                <th><strong></strong></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var vendedor in Model.OrderBy(vended => vended.NomeVendedor))
+            {
+                <tr>
+                    <td>@Html.DisplayFor(ven => vendedor.NomeVendedor)</td>
+                    <td>@Html.DisplayFor(troc => vendedor.Cidade)</td>
+                    <td>@Html.DisplayFor(troc => vendedor.Telefone)</td>
+                    <td>@Html.DisplayFor(troc => vendedor.Email)</td>
+                   <td class="text-center">
+                            <strong>@Html.ActionLink("editar", "RecuperaVendedor", new { id = vendedor.Id})</strong>
+                        </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

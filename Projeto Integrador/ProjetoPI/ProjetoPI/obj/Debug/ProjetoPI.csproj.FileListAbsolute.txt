@@ -1,0 +1,314 @@
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\obj\Debug\ProjetoPI.csproj.App.config
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\obj\Debug\ProjetoPI.csprojResolveAssemblyReference.cache
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\ProjetoPI.dll.config
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\ProjetoPI.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\ProjetoPI.pdb
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\Antlr3.Runtime.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\Dominio.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.Core.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\EntityFramework.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\EntityFramework.SqlServer.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\Microsoft.Data.Edm.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\Microsoft.Data.OData.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\Microsoft.Web.Helpers.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\Newtonsoft.Json.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\Persistencia.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\System.Net.Http.Extensions.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\System.Net.Http.Formatting.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\System.Net.Http.Primitives.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\System.Spatial.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\System.Web.Helpers.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\System.Web.Http.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\System.Web.Http.OData.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\System.Web.Http.WebHost.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\System.Web.Mvc.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\System.Web.Optimization.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\System.Web.Razor.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\System.Web.WebPages.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\WebGrease.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\WebMatrix.Data.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\WebMatrix.WebData.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\Dominio.pdb
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\EntityFramework.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\EntityFramework.SqlServer.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\Newtonsoft.Json.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\System.Net.Http.Extensions.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\System.Net.Http.Formatting.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\System.Net.Http.Primitives.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\System.Web.Helpers.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\System.Web.Http.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\System.Web.Http.OData.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\System.Web.Http.WebHost.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\System.Web.Mvc.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\System.Web.Razor.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\System.Web.WebPages.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.Core.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\Microsoft.Data.Edm.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\Microsoft.Data.OData.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\System.Spatial.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\WebMatrix.Data.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\WebMatrix.WebData.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\de\System.Spatial.resources.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\es\System.Spatial.resources.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\fr\System.Spatial.resources.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\it\System.Spatial.resources.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\ja\System.Spatial.resources.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\ko\System.Spatial.resources.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\ru\System.Spatial.resources.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\obj\Debug\ProjetoPI.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\obj\Debug\ProjetoPI.pdb
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\Persistencia.pdb
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\Microsoft.Web.Mvc.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\Regra.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\ProjetoPI\bin\Regra.pdb
+D:\ProjetoPI\ProjetoPI\bin\ProjetoPI.dll.config
+D:\ProjetoPI\ProjetoPI\bin\ProjetoPI.dll
+D:\ProjetoPI\ProjetoPI\bin\ProjetoPI.pdb
+D:\ProjetoPI\ProjetoPI\bin\Antlr3.Runtime.dll
+D:\ProjetoPI\ProjetoPI\bin\Dominio.dll
+D:\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.AspNet.dll
+D:\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.Core.dll
+D:\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.OAuth.dll
+D:\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.OpenId.dll
+D:\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\ProjetoPI\ProjetoPI\bin\EntityFramework.dll
+D:\ProjetoPI\ProjetoPI\bin\EntityFramework.SqlServer.dll
+D:\ProjetoPI\ProjetoPI\bin\Microsoft.AspNet.Identity.Core.dll
+D:\ProjetoPI\ProjetoPI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\ProjetoPI\ProjetoPI\bin\Microsoft.Data.Edm.dll
+D:\ProjetoPI\ProjetoPI\bin\Microsoft.Data.OData.dll
+D:\ProjetoPI\ProjetoPI\bin\Microsoft.Web.Helpers.dll
+D:\ProjetoPI\ProjetoPI\bin\Microsoft.Web.Infrastructure.dll
+D:\ProjetoPI\ProjetoPI\bin\Microsoft.Web.Mvc.dll
+D:\ProjetoPI\ProjetoPI\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\ProjetoPI\ProjetoPI\bin\Newtonsoft.Json.dll
+D:\ProjetoPI\ProjetoPI\bin\Persistencia.dll
+D:\ProjetoPI\ProjetoPI\bin\Regra.dll
+D:\ProjetoPI\ProjetoPI\bin\System.Net.Http.Extensions.dll
+D:\ProjetoPI\ProjetoPI\bin\System.Net.Http.Formatting.dll
+D:\ProjetoPI\ProjetoPI\bin\System.Net.Http.Primitives.dll
+D:\ProjetoPI\ProjetoPI\bin\System.Spatial.dll
+D:\ProjetoPI\ProjetoPI\bin\System.Web.Helpers.dll
+D:\ProjetoPI\ProjetoPI\bin\System.Web.Http.dll
+D:\ProjetoPI\ProjetoPI\bin\System.Web.Http.OData.dll
+D:\ProjetoPI\ProjetoPI\bin\System.Web.Http.WebHost.dll
+D:\ProjetoPI\ProjetoPI\bin\System.Web.Mvc.dll
+D:\ProjetoPI\ProjetoPI\bin\System.Web.Optimization.dll
+D:\ProjetoPI\ProjetoPI\bin\System.Web.Razor.dll
+D:\ProjetoPI\ProjetoPI\bin\System.Web.WebPages.Deployment.dll
+D:\ProjetoPI\ProjetoPI\bin\System.Web.WebPages.dll
+D:\ProjetoPI\ProjetoPI\bin\System.Web.WebPages.Razor.dll
+D:\ProjetoPI\ProjetoPI\bin\WebGrease.dll
+D:\ProjetoPI\ProjetoPI\bin\WebMatrix.Data.dll
+D:\ProjetoPI\ProjetoPI\bin\WebMatrix.WebData.dll
+D:\ProjetoPI\ProjetoPI\bin\Dominio.pdb
+D:\ProjetoPI\ProjetoPI\bin\Persistencia.pdb
+D:\ProjetoPI\ProjetoPI\bin\Regra.pdb
+D:\ProjetoPI\ProjetoPI\bin\EntityFramework.xml
+D:\ProjetoPI\ProjetoPI\bin\EntityFramework.SqlServer.xml
+D:\ProjetoPI\ProjetoPI\bin\Microsoft.AspNet.Identity.Core.xml
+D:\ProjetoPI\ProjetoPI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\ProjetoPI\ProjetoPI\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\ProjetoPI\ProjetoPI\bin\Newtonsoft.Json.xml
+D:\ProjetoPI\ProjetoPI\bin\System.Net.Http.Extensions.xml
+D:\ProjetoPI\ProjetoPI\bin\System.Net.Http.Formatting.xml
+D:\ProjetoPI\ProjetoPI\bin\System.Net.Http.Primitives.xml
+D:\ProjetoPI\ProjetoPI\bin\System.Web.Helpers.xml
+D:\ProjetoPI\ProjetoPI\bin\System.Web.Http.xml
+D:\ProjetoPI\ProjetoPI\bin\System.Web.Http.OData.xml
+D:\ProjetoPI\ProjetoPI\bin\System.Web.Http.WebHost.xml
+D:\ProjetoPI\ProjetoPI\bin\System.Web.Mvc.xml
+D:\ProjetoPI\ProjetoPI\bin\System.Web.Razor.xml
+D:\ProjetoPI\ProjetoPI\bin\System.Web.WebPages.xml
+D:\ProjetoPI\ProjetoPI\bin\System.Web.WebPages.Deployment.xml
+D:\ProjetoPI\ProjetoPI\bin\System.Web.WebPages.Razor.xml
+D:\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.AspNet.xml
+D:\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.Core.xml
+D:\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.OAuth.xml
+D:\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.OpenId.xml
+D:\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\ProjetoPI\ProjetoPI\bin\Microsoft.Data.Edm.xml
+D:\ProjetoPI\ProjetoPI\bin\Microsoft.Data.OData.xml
+D:\ProjetoPI\ProjetoPI\bin\System.Spatial.xml
+D:\ProjetoPI\ProjetoPI\bin\WebMatrix.Data.xml
+D:\ProjetoPI\ProjetoPI\bin\WebMatrix.WebData.xml
+D:\ProjetoPI\ProjetoPI\bin\de\Microsoft.Data.Edm.resources.dll
+D:\ProjetoPI\ProjetoPI\bin\es\Microsoft.Data.Edm.resources.dll
+D:\ProjetoPI\ProjetoPI\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\ProjetoPI\ProjetoPI\bin\it\Microsoft.Data.Edm.resources.dll
+D:\ProjetoPI\ProjetoPI\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\ProjetoPI\ProjetoPI\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\ProjetoPI\ProjetoPI\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\ProjetoPI\ProjetoPI\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\ProjetoPI\ProjetoPI\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\ProjetoPI\ProjetoPI\bin\de\Microsoft.Data.OData.resources.dll
+D:\ProjetoPI\ProjetoPI\bin\es\Microsoft.Data.OData.resources.dll
+D:\ProjetoPI\ProjetoPI\bin\fr\Microsoft.Data.OData.resources.dll
+D:\ProjetoPI\ProjetoPI\bin\it\Microsoft.Data.OData.resources.dll
+D:\ProjetoPI\ProjetoPI\bin\ja\Microsoft.Data.OData.resources.dll
+D:\ProjetoPI\ProjetoPI\bin\ko\Microsoft.Data.OData.resources.dll
+D:\ProjetoPI\ProjetoPI\bin\ru\Microsoft.Data.OData.resources.dll
+D:\ProjetoPI\ProjetoPI\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\ProjetoPI\ProjetoPI\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\ProjetoPI\ProjetoPI\bin\de\System.Spatial.resources.dll
+D:\ProjetoPI\ProjetoPI\bin\es\System.Spatial.resources.dll
+D:\ProjetoPI\ProjetoPI\bin\fr\System.Spatial.resources.dll
+D:\ProjetoPI\ProjetoPI\bin\it\System.Spatial.resources.dll
+D:\ProjetoPI\ProjetoPI\bin\ja\System.Spatial.resources.dll
+D:\ProjetoPI\ProjetoPI\bin\ko\System.Spatial.resources.dll
+D:\ProjetoPI\ProjetoPI\bin\ru\System.Spatial.resources.dll
+D:\ProjetoPI\ProjetoPI\bin\zh-Hans\System.Spatial.resources.dll
+D:\ProjetoPI\ProjetoPI\bin\zh-Hant\System.Spatial.resources.dll
+D:\ProjetoPI\ProjetoPI\obj\Debug\ProjetoPI.csproj.App.config
+D:\ProjetoPI\ProjetoPI\obj\Debug\ProjetoPI.csprojResolveAssemblyReference.cache
+D:\ProjetoPI\ProjetoPI\obj\Debug\ProjetoPI.dll
+D:\ProjetoPI\ProjetoPI\obj\Debug\ProjetoPI.pdb
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\ProjetoPI.dll.config
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\ProjetoPI.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\ProjetoPI.pdb
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\Antlr3.Runtime.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\Dominio.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.AspNet.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.Core.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.OAuth.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.OpenId.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\EntityFramework.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\EntityFramework.SqlServer.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\Microsoft.Data.Edm.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\Microsoft.Data.OData.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\Microsoft.Web.Helpers.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\Microsoft.Web.Infrastructure.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\Microsoft.Web.Mvc.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\Newtonsoft.Json.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\Persistencia.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\Regra.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\System.Net.Http.Extensions.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\System.Net.Http.Formatting.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\System.Net.Http.Primitives.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\System.Spatial.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\System.Web.Helpers.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\System.Web.Http.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\System.Web.Http.OData.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\System.Web.Http.WebHost.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\System.Web.Mvc.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\System.Web.Optimization.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\System.Web.Razor.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\System.Web.WebPages.Deployment.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\System.Web.WebPages.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\System.Web.WebPages.Razor.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\WebGrease.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\WebMatrix.Data.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\WebMatrix.WebData.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\Dominio.pdb
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\Persistencia.pdb
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\Regra.pdb
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\EntityFramework.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\EntityFramework.SqlServer.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\Newtonsoft.Json.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\System.Net.Http.Extensions.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\System.Net.Http.Formatting.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\System.Net.Http.Primitives.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\System.Web.Helpers.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\System.Web.Http.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\System.Web.Http.OData.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\System.Web.Http.WebHost.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\System.Web.Mvc.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\System.Web.Razor.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\System.Web.WebPages.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\System.Web.WebPages.Deployment.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\System.Web.WebPages.Razor.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.AspNet.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.Core.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.OAuth.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.OpenId.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\Microsoft.Data.Edm.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\Microsoft.Data.OData.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\System.Spatial.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\WebMatrix.Data.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\WebMatrix.WebData.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\de\Microsoft.Data.Edm.resources.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\es\Microsoft.Data.Edm.resources.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\it\Microsoft.Data.Edm.resources.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\de\Microsoft.Data.OData.resources.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\es\Microsoft.Data.OData.resources.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\fr\Microsoft.Data.OData.resources.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\it\Microsoft.Data.OData.resources.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\ja\Microsoft.Data.OData.resources.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\ko\Microsoft.Data.OData.resources.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\ru\Microsoft.Data.OData.resources.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\de\System.Spatial.resources.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\es\System.Spatial.resources.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\fr\System.Spatial.resources.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\it\System.Spatial.resources.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\ja\System.Spatial.resources.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\ko\System.Spatial.resources.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\ru\System.Spatial.resources.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\zh-Hans\System.Spatial.resources.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\zh-Hant\System.Spatial.resources.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\obj\Debug\ProjetoPI.csproj.App.config
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\obj\Debug\ProjetoPI.csprojResolveAssemblyReference.cache
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\obj\Debug\ProjetoPI.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\obj\Debug\ProjetoPI.pdb
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\AE.Net.Mail.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\ProjetoPI\bin\AE.Net.Mail.pdb

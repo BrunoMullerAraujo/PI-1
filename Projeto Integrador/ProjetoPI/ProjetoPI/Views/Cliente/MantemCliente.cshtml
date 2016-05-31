@@ -1,0 +1,67 @@
+﻿@model Dominio.Cliente
+@{  
+
+    ViewBag.Title = "Novo Cliente";
+    var selectListTipo = new[] {new SelectListItem(){Text = "Pessoa Fisica", Value = "PF"},
+                          new SelectListItem(){Text = "Pessoa Juridica", Value = "PJ"}};
+
+}
+
+<h2>Cadastro de Clientes</h2>
+<br />
+<div id="novo-animal">
+    @Html.ValidationSummary(true)
+    <div class="row">
+        <div class="col-sm-12">
+            @using (Html.BeginForm("NovoCliente", "Cliente", FormMethod.Post, new { @id = "form-novo-cliente", @class = "form-horizontal", @role = "form" }))
+            {
+                <fieldset>
+                    <legend>Cadastro de Clientes</legend>
+
+                    @Html.HiddenFor(cliente => cliente.Id)
+
+                    <div class="form-group">
+                        <div class="col-sm-2">
+
+                            @Html.LabelFor(cliente => cliente.CPFCNPJ, new { @class = "control-label", @for = "nome-cliente" })
+                            @Html.TextBoxFor(cliente => cliente.CPFCNPJ, new { @id = "nome-cliente", @class = "form-control", @placeholder = "Digite aqui o nome do cliente" })
+                            @Html.ValidationMessageFor(cliente => cliente.CPFCNPJ, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                        </div>
+                        <div class="col-sm-2">
+                            @Html.LabelFor(cliente => cliente.TipoCliente, new { @class = "control-label", @for = "codigo-cliente" })
+                            @Html.DropDownListFor(cliente => cliente.TipoCliente, selectListTipo, "Selecione...", new { @id = "codigo-cliente", @class = "chosen-select" })
+
+                        </div>
+                        <div class="col-sm-4">
+                            @Html.LabelFor(cliente => cliente.Nome, new { @class = "control-label", @for = "nome-cliente" })
+                            @Html.TextBoxFor(cliente => cliente.Nome, new { @id = "nome-cliente", @class = "form-control", @placeholder = "Digite aqui o nome do cliente" })
+                            @Html.ValidationMessageFor(cliente => cliente.Nome, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                        </div>
+
+                        <div class="col-sm-4">
+                            @Html.LabelFor(cliente => cliente.Email, new { @class = "control-label", @for = "nome-cliente" })
+                            @Html.TextBoxFor(cliente => cliente.Email, new { @id = "nome-cliente", @class = "form-control", @placeholder = "Digite aqui o nome do cliente" })
+                            @Html.ValidationMessageFor(cliente => cliente.Email, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <input type="submit" class="btn btn-primary" value="Enviar" />
+                            <input type="reset" class="btn btn-secondary" value="Limpar" />
+                        </div>
+                    </div>
+
+                </fieldset>
+            }
+        </div>
+    </div>
+</div>
+
+@section Scripts
+{
+    <script type="text/javascript">
+        $('.chosen-select').chosen({ no_results_text: "Nenhum resgistro encontrado!", search_contains: true });
+
+
+    </script>
+}

@@ -1,0 +1,77 @@
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Persistencia\obj\Debug\Persistencia.csprojResolveAssemblyReference.cache
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Persistencia\bin\Debug\Persistencia.dll.config
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Persistencia\bin\Debug\Persistencia.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Persistencia\bin\Debug\Persistencia.pdb
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Persistencia\bin\Debug\Dominio.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Persistencia\bin\Debug\EntityFramework.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Persistencia\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Persistencia\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Persistencia\bin\Debug\System.Web.Helpers.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Persistencia\bin\Debug\System.Web.Mvc.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Persistencia\bin\Debug\System.Web.Razor.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Persistencia\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Persistencia\bin\Debug\System.Web.WebPages.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Persistencia\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Persistencia\bin\Debug\Dominio.pdb
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Persistencia\bin\Debug\EntityFramework.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Persistencia\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Persistencia\bin\Debug\System.Web.Helpers.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Persistencia\bin\Debug\System.Web.Mvc.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Persistencia\bin\Debug\System.Web.Razor.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Persistencia\bin\Debug\System.Web.WebPages.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Persistencia\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Persistencia\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Persistencia\obj\Debug\Persistencia.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Persistencia\obj\Debug\Persistencia.pdb
+D:\ProjetoPI\Persistencia\obj\Debug\Persistencia.csprojResolveAssemblyReference.cache
+D:\ProjetoPI\Persistencia\obj\Debug\Persistencia.dll
+D:\ProjetoPI\Persistencia\bin\Debug\Persistencia.dll.config
+D:\ProjetoPI\Persistencia\bin\Debug\Persistencia.dll
+D:\ProjetoPI\Persistencia\bin\Debug\Persistencia.pdb
+D:\ProjetoPI\Persistencia\bin\Debug\Dominio.dll
+D:\ProjetoPI\Persistencia\bin\Debug\EntityFramework.dll
+D:\ProjetoPI\Persistencia\bin\Debug\EntityFramework.SqlServer.dll
+D:\ProjetoPI\Persistencia\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\ProjetoPI\Persistencia\bin\Debug\System.Web.Helpers.dll
+D:\ProjetoPI\Persistencia\bin\Debug\System.Web.Mvc.dll
+D:\ProjetoPI\Persistencia\bin\Debug\System.Web.Razor.dll
+D:\ProjetoPI\Persistencia\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\ProjetoPI\Persistencia\bin\Debug\System.Web.WebPages.dll
+D:\ProjetoPI\Persistencia\bin\Debug\System.Web.WebPages.Razor.dll
+D:\ProjetoPI\Persistencia\bin\Debug\Dominio.pdb
+D:\ProjetoPI\Persistencia\bin\Debug\EntityFramework.xml
+D:\ProjetoPI\Persistencia\bin\Debug\EntityFramework.SqlServer.xml
+D:\ProjetoPI\Persistencia\bin\Debug\System.Web.Helpers.xml
+D:\ProjetoPI\Persistencia\bin\Debug\System.Web.Mvc.xml
+D:\ProjetoPI\Persistencia\bin\Debug\System.Web.Razor.xml
+D:\ProjetoPI\Persistencia\bin\Debug\System.Web.WebPages.xml
+D:\ProjetoPI\Persistencia\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\ProjetoPI\Persistencia\bin\Debug\System.Web.WebPages.Razor.xml
+D:\ProjetoPI\Persistencia\obj\Debug\Persistencia.pdb
+D:\Faculdade\Projeto Integrador\ProjetoPI\Persistencia\bin\Debug\Persistencia.dll.config
+D:\Faculdade\Projeto Integrador\ProjetoPI\Persistencia\bin\Debug\Persistencia.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\Persistencia\bin\Debug\Persistencia.pdb
+D:\Faculdade\Projeto Integrador\ProjetoPI\Persistencia\bin\Debug\Dominio.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\Persistencia\bin\Debug\EntityFramework.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\Persistencia\bin\Debug\EntityFramework.SqlServer.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\Persistencia\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\Persistencia\bin\Debug\System.Web.Helpers.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\Persistencia\bin\Debug\System.Web.Mvc.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\Persistencia\bin\Debug\System.Web.Razor.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\Persistencia\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\Persistencia\bin\Debug\System.Web.WebPages.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\Persistencia\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\Persistencia\bin\Debug\Dominio.pdb
+D:\Faculdade\Projeto Integrador\ProjetoPI\Persistencia\bin\Debug\EntityFramework.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\Persistencia\bin\Debug\EntityFramework.SqlServer.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\Persistencia\bin\Debug\System.Web.Helpers.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\Persistencia\bin\Debug\System.Web.Mvc.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\Persistencia\bin\Debug\System.Web.Razor.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\Persistencia\bin\Debug\System.Web.WebPages.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\Persistencia\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\Persistencia\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\Persistencia\obj\Debug\Persistencia.csprojResolveAssemblyReference.cache
+D:\Faculdade\Projeto Integrador\ProjetoPI\Persistencia\obj\Debug\Persistencia.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\Persistencia\obj\Debug\Persistencia.pdb
+D:\Faculdade\Projeto Integrador\ProjetoPI\Persistencia\bin\Debug\AE.Net.Mail.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\Persistencia\bin\Debug\AE.Net.Mail.pdb

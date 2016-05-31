@@ -1,0 +1,35 @@
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Regra\bin\Debug\Regra.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Regra\bin\Debug\Regra.pdb
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Regra\bin\Debug\Dominio.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Regra\bin\Debug\Persistencia.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Regra\bin\Debug\EntityFramework.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Regra\bin\Debug\Dominio.pdb
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Regra\bin\Debug\Persistencia.pdb
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Regra\bin\Debug\EntityFramework.xml
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Regra\obj\Debug\Regra.csprojResolveAssemblyReference.cache
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Regra\obj\Debug\Regra.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Regra\obj\Debug\Regra.pdb
+D:\ProjetoPI\Regra\bin\Debug\Regra.dll
+D:\ProjetoPI\Regra\bin\Debug\Regra.pdb
+D:\ProjetoPI\Regra\bin\Debug\Dominio.dll
+D:\ProjetoPI\Regra\bin\Debug\Persistencia.dll
+D:\ProjetoPI\Regra\bin\Debug\EntityFramework.dll
+D:\ProjetoPI\Regra\bin\Debug\Dominio.pdb
+D:\ProjetoPI\Regra\bin\Debug\Persistencia.pdb
+D:\ProjetoPI\Regra\bin\Debug\EntityFramework.xml
+D:\ProjetoPI\Regra\obj\Debug\Regra.csprojResolveAssemblyReference.cache
+D:\ProjetoPI\Regra\obj\Debug\Regra.dll
+D:\ProjetoPI\Regra\obj\Debug\Regra.pdb
+D:\Faculdade\Projeto Integrador\ProjetoPI\Regra\bin\Debug\Regra.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\Regra\bin\Debug\Regra.pdb
+D:\Faculdade\Projeto Integrador\ProjetoPI\Regra\bin\Debug\Dominio.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\Regra\bin\Debug\Persistencia.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\Regra\bin\Debug\EntityFramework.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\Regra\bin\Debug\Dominio.pdb
+D:\Faculdade\Projeto Integrador\ProjetoPI\Regra\bin\Debug\Persistencia.pdb
+D:\Faculdade\Projeto Integrador\ProjetoPI\Regra\bin\Debug\EntityFramework.xml
+D:\Faculdade\Projeto Integrador\ProjetoPI\Regra\obj\Debug\Regra.csprojResolveAssemblyReference.cache
+D:\Faculdade\Projeto Integrador\ProjetoPI\Regra\obj\Debug\Regra.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\Regra\obj\Debug\Regra.pdb
+D:\Faculdade\Projeto Integrador\ProjetoPI\Regra\bin\Debug\AE.Net.Mail.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\Regra\bin\Debug\AE.Net.Mail.pdb

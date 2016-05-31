@@ -1,0 +1,69 @@
+﻿@model Dominio.Produto
+@{
+
+    ViewBag.Title = "Novo Produto";
+
+    var selectListTipo = new[] {new SelectListItem(){Text = "Unidade", Value = "UN"},
+                          new SelectListItem(){Text = "Kilo", Value = "KG"}};
+
+}
+
+<h2>Cadastro de Produto</h2>
+<br />
+<div id="novo-animal">
+    @Html.ValidationSummary(true)
+    <div class="row">
+        <div class="col-sm-12">
+            @using (Html.BeginForm("NovoProduto", "Produto", FormMethod.Post, new { @id = "form-novo-Produto", @class = "form-horizontal", @role = "form" }))
+            {
+                <fieldset>
+                    <legend>Cadastro de Produto</legend>
+
+                    @Html.HiddenFor(produto => produto.Id)
+
+                    <div class="form-group">
+                        <div class="col-sm-4">
+
+                            @Html.LabelFor(produto => produto.CodigoPro, new { @class = "control-label", @for = "codPro" })
+                            @Html.TextBoxFor(produto => produto.CodigoPro, new { @id = "codPro", @class = "form-control", @placeholder = "Digite aqui o Codigo do Produto" })
+                            @Html.ValidationMessageFor(cliente => cliente.CodigoPro, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                        </div>
+
+
+
+                        <div class="col-sm-4">
+                            @Html.LabelFor(produto => produto.NomeProduto, new { @class = "control-label", @for = "nome-pro" })
+                            @Html.TextBoxFor(produto => produto.NomeProduto, new { @id = "nome-pro", @class = "form-control", @placeholder = "Digite aqui o nome do Produto" })
+                            @Html.ValidationMessageFor(produto => produto.NomeProduto, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                        </div>
+
+                        <div class="col-sm-4">
+                            @Html.LabelFor(produto => produto.UnidadeMedida, new { @class = "control-label", @for = "unidadeMedida" })
+                            @Html.DropDownListFor(produto => produto.UnidadeMedida, selectListTipo, "Selecione...", new { @id = "unidadeMedida", @class = "chosen-select" })
+
+                        </div>
+
+
+                    </div>
+          
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <input type="submit" class="btn btn-primary" value="Enviar" />
+                            <input type="reset" class="btn btn-secondary" value="Limpar" />
+                        </div>
+                    </div>
+
+                </fieldset>
+            }
+        </div>
+    </div>
+</div>
+
+@section Scripts
+{
+    <script type="text/javascript">
+        $('.chosen-select').chosen({ no_results_text: "Nenhum resgistro encontrado!", search_contains: true });
+
+
+    </script>
+}

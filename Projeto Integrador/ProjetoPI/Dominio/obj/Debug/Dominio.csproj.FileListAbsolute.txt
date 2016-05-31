@@ -1,0 +1,17 @@
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Dominio\bin\Debug\Dominio.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Dominio\obj\Debug\Dominio.dll
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Dominio\obj\Debug\Dominio.pdb
+C:\Users\Leonardo\Documents\Visual Studio 2012\Projects\ProjetoPI\Dominio\obj\Debug\Dominio.csprojResolveAssemblyReference.cache
+D:\ProjetoPI\Dominio\bin\Debug\Dominio.dll
+D:\ProjetoPI\Dominio\bin\Debug\Dominio.pdb
+D:\ProjetoPI\Dominio\obj\Debug\Dominio.csprojResolveAssemblyReference.cache
+D:\ProjetoPI\Dominio\obj\Debug\Dominio.dll
+D:\ProjetoPI\Dominio\obj\Debug\Dominio.pdb
+D:\Faculdade\Projeto Integrador\ProjetoPI\Dominio\bin\Debug\Dominio.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\Dominio\bin\Debug\Dominio.pdb
+D:\Faculdade\Projeto Integrador\ProjetoPI\Dominio\obj\Debug\Dominio.csprojResolveAssemblyReference.cache
+D:\Faculdade\Projeto Integrador\ProjetoPI\Dominio\obj\Debug\Dominio.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\Dominio\obj\Debug\Dominio.pdb
+D:\Faculdade\Projeto Integrador\ProjetoPI\Dominio\bin\Debug\AE.Net.Mail.dll
+D:\Faculdade\Projeto Integrador\ProjetoPI\Dominio\bin\Debug\AE.Net.Mail.pdb

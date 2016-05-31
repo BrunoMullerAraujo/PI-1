@@ -1,0 +1,90 @@
+﻿@model Dominio.Vendedor
+@{
+    ViewBag.Title = "Novo Vendedor";
+}
+
+<div id="novo-vendedor">
+    @Html.ValidationSummary(true)
+    <div class="row">
+        <div class="col-sm-12">
+            @using (Html.BeginForm("NovoVendedor", "Vendedor", FormMethod.Post, new { @id = "form-novo-vendedor", @class = "form-horizontal", @role = "form" }))
+            {
+                <fieldset>
+                    <legend>Cadastro de Vendedor</legend>
+
+                    @Html.HiddenFor(vendedor => vendedor.Id)
+
+                    <div class="form-group">
+                        <div class="col-sm-2">
+
+                            @Html.LabelFor(vendedor => vendedor.CodigoVendedor, new { @class = "control-label", @for = "codigo-vendedor" })
+                            @Html.TextBoxFor(vendedor => vendedor.CodigoVendedor, new { @id = "codigo-vendedor", @class = "form-control", @placeholder = "Digite aqui o Codigo do Vendedor" })
+                            @Html.ValidationMessageFor(vendedor => vendedor.CodigoVendedor, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                        </div>
+
+                        <div class="col-sm-4">
+                            @Html.LabelFor(vendedor => vendedor.NomeVendedor, new { @class = "control-label", @for = "nome-vendedor" })
+                            @Html.TextBoxFor(vendedor => vendedor.NomeVendedor, new { @id = "nome-vendedor", @class = "form-control", @placeholder = "Digite aqui o nome do vendedor" })
+                            @Html.ValidationMessageFor(vendedor => vendedor.NomeVendedor, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                        </div>
+
+                        <div class="col-sm-2">
+
+                            @Html.LabelFor(vendedor => vendedor.NomeReduzido, new { @class = "control-label", @for = "fantasia-vendedor" })
+                            @Html.TextBoxFor(vendedor => vendedor.NomeReduzido, new { @id = "fantasia-vendedor", @class = "form-control", @placeholder = "Digite aqui o Nome Fantasia do Vendedor" })
+                            @Html.ValidationMessageFor(vendedor => vendedor.NomeReduzido, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                        </div>
+
+                        <div class="col-sm-4">
+                            @Html.LabelFor(vendedor => vendedor.Email, new { @class = "control-label", @for = "nome-vendedor" })
+                            @Html.TextBoxFor(vendedor => vendedor.Email, new { @id = "nome-vendedor", @class = "form-control", @placeholder = "Digite aqui o E-mail do Vendedor" })
+                            @Html.ValidationMessageFor(vendedor => vendedor.Email, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <div class="col-sm-4">
+
+                            @Html.LabelFor(vendedor => vendedor.Cidade, new { @class = "control-label", @for = "cidade" })
+                            @Html.TextBoxFor(vendedor => vendedor.Cidade, new { @id = "Cidade", @class = "form-control", @placeholder = "Digite aqui o Codigo do Cidade" })
+                            @Html.ValidationMessageFor(vendedor => vendedor.Cidade, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                        </div>
+
+                        <div class="col-sm-4">
+                            @Html.LabelFor(vendedor => vendedor.Telefone, new { @class = "control-label", @for = "telefoner" })
+                            @Html.TextBoxFor(vendedor => vendedor.Telefone, new { @id = "telefone", @class = "form-control", @placeholder = "Digite aqui o nome do Telefone" })
+                            @Html.ValidationMessageFor(vendedor => vendedor.Telefone, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                        </div>
+
+                        <div class="col-sm-4">
+                            @Html.LabelFor(vendedor => vendedor.Senha, new { @class = "control-label", @for = "senha" })
+                            @Html.PasswordFor(vendedor => vendedor.Senha, new { @id = "senha", @class = "form-control", @placeholder = "Digite aqui a Senha" })
+                            @Html.ValidationMessageFor(vendedor => vendedor.Senha, String.Empty, new { @class = "help-inline", @style = "color:red" })
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <input type="submit" class="btn btn-primary" value="Enviar" />
+                            <input type="reset" class="btn btn-secondary" value="Limpar" />
+                        </div>
+                    </div>
+
+                </fieldset>
+            }
+        </div>
+    </div>
+</div>
+
+@section Scripts
+{
+    <script type="text/javascript">
+        $('.chosen-select').chosen({ no_results_text: "Nenhum resgistro encontrado!", search_contains: true });
+
+
+    </script>
+}
+
+
